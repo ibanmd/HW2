@@ -7,16 +7,19 @@ Assignment 2
 Summer 2015
 
 
-Question 1. Write a method called maxOfTwo that accepts two integer parameters and returns the
+##Question 1. 
+Write a method called maxOfTwo that accepts two integer parameters and returns the
 larger of the two. (5 pts.)
 
 
-Question 2. Design and implement an application that reads an integer value and prints the sum of all
+##Question 2. 
+Design and implement an application that reads an integer value and prints the sum of all
 even integers between 2 and the input value, inclusive. Print an error message if the input
 value is less than 2. Prompt accordingly. (10 pts.)
 
 
-Question 3. (Palindrome integer) Write the methods with the following headers (10 pts)
+##Question 3. 
+(Palindrome integer) Write the methods with the following headers (10 pts)
 ```java
 // Return the reversal of an integer, i.e., reverse(456) returns 654
 Public static int reverse(int number)
@@ -28,7 +31,8 @@ reversal is the same as itself. Write a test program that prompts the user to en
 and reports whether the integer is a palindrome.
 
 
-Question 4. (Check password) Some websites impose certain rules for passwords. Write a method that
+##Question 4. 
+(Check password) Some websites impose certain rules for passwords. Write a method that
 checks whether a string is a valid password. Suppose the password rules are as follows.
 A password must have at least eight characters.
 A password consists of only letters and digits.
@@ -37,7 +41,8 @@ Write a program that prompts the user to enter a password and displays Valid Pas
 the rules are followed or Invalid Password otherwise. (10 pts)
 
 
-Question 5. Credit card numbers follow certain patterns. A credit card number must have between 13
+##Question 5. 
+Credit card numbers follow certain patterns. A credit card number must have between 13
 and 16 digits. It must start with: (15 pts)
 4 for Visa cards
 5 for Master cards
