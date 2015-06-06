@@ -58,18 +58,19 @@ number, add up the two digits to get a single-digit number.
 5 * 2 = 10 (1 + 0 = 1)
 8 * 2 = 16 (1 + 6 = 7)
 4 * 2 = 8
-+ Now add all single-digit numbers from Step 1.
+a) Now add all single-digit numbers from Step 1.
 4 + 4 + 8 + 2 + 3 + 1 + 7 + 8 = 37
-+ Add all digits in the odd places from right to left in the card number.
+b) Add all digits in the odd places from right to left in the card number.
  6 + 6 + 0 + 8 + 0 + 7 + 8 + 3 = 38
-+ Sum the results from Step 2 and Step 3.
+c) Sum the results from Step 2 and Step 3.
 37 + 38 = 75
-+ If the result from Step 4 is divisible by 10, the card number is valid; otherwise, it is
+d) If the result from Step 4 is divisible by 10, the card number is valid; otherwise, it is
 invalid. For example, the number 4388576018402626 is invalid, but the number
 4388576018410707 is valid.
 Write a program that prompts the user to enter a credit card number as a long integer.
 Display whether the number is valid or invalid. Design your program to use the following
 methods:
+```java
 /** Return true if the card number is valid */
 public static Boolean isValid(long number)
 /**Get the result from Step 2 */
@@ -80,15 +81,12 @@ public static int getDigit(int number)
 public static int sumOfoddPlace(long number)
 /** Return true if the digit d is prefix for number */
 public static Boolean prefixMatched(long number, int d)
-COP 3503
-Computer Science II
-Assignment 2
-Summer 2015
 /**Return the number of digits in d*/
 public static in getSize(long d)
 /** Return the first k number of digits from number. If the number of digits in number is
 less thatn k, return number. */
 public static long getPrefix(long number, int k)
+```
 Here are sample runs of the program:
 Sample 1:
 Enter a credit card number as a long integer: 4246345689049834
